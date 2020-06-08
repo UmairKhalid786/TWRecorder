@@ -1,0 +1,2 @@
+include ':app', ':twsc'
+rootProject.name='TekWhizz Screen Recorder'

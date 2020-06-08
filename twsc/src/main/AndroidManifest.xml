@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tekwhizz.twsc">
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        tools:targetApi="q">
+
+        <service android:name=".ScreenRecordService"
+            android:foregroundServiceType="mediaProjection"
+            tools:targetApi="q" />
+
+        <receiver android:name=".NotificationReceiver"/>
+
+    </application>
+
+</manifest>
